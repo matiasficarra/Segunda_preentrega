@@ -1,0 +1,14 @@
+.formatoTitulos{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: 100%; 
+    margin: 0 auto;
+    font-size: $fuente-grande;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.formatoTitulosSecundarios{
+    @extend .formatoTitulos;
+    font-size: $fuente-normal;
+}
