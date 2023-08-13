@@ -1,11 +1,17 @@
 .card{
     width: 18rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
 }
 .formulario{
     padding-left: 2rem;
 }
 .botonesFormulario{
-    background-color: red;   
+    background-color: red;
+    padding-left: 0,5rem;
+    padding-right: 0,5rem;
+    padding-top: 0,5rem;
+    padding-bottom: 0,5rem;
 }
 .tamanioParrafo{
     text-align: center;
